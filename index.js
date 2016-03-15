@@ -1,6 +1,6 @@
 const express = require('express');
 const apiRouter = require('./api/routes/routes');
-const config = require('./config/config');
+const config = require('./config/nodeConfig');
 const bodyParser = require('body-parser');
 const logger = config.logger;
 const morgan = config.morgan;
